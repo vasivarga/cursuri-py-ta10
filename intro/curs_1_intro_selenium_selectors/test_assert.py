@@ -3,7 +3,7 @@
 """
 assert este sintaxa care evalueaza o expresie si returneaza o eroare in cazul in care expresia nu este adevarata
 Practic, in testare automata, un assert este elementul care decide daca testul e "trecut" sau "picat"
-(passed sau failed) 
+(passed sau failed)
 """
 
 expresie = (1 != 2)

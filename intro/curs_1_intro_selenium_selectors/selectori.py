@@ -78,6 +78,7 @@ time.sleep(1)
 
 # Gasim TOATE elementele dupa TAG-ul HTML <input> si le punem intr-o lista
 elements_list = driver.find_elements(By.TAG_NAME, "input")
+
 assert len(elements_list) == 10
 
 time.sleep(5)
