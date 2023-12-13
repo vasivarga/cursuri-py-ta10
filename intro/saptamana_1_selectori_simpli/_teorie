@@ -1,0 +1,55 @@
+# ######################### Intro HTML, DOM, CSS #########################
+
+"""
+Pagina HTML = orice pagina web scrisa in limbajul HTML
+
+Forma generala a unui fisier html:
+
+<html>      - Nodu HTML, primul nod din document. Marcheaza inceputul paginii.
+
+    <head>
+            .... - aici vine metadata neafisata in browser (ex: titlul paginii, fisiere pt stilizare, etc)
+    </head
+
+    <body>
+            .... - aici vin elementele din pagina (div-uri, butoane, input-uri, etc)
+    </body>
+
+</html>
+
+Nodul <head> - este un container pentru metadata (date despre date) si poate contine titlul paginii,
+referinte catre fisiere cu scripturi, stiluri si alte
+
+Nodul <body> - contine elementele propriu-zise din pagina care sunt afisate in browser
+
+- Fiecare element din pagina are un tip
+- Aceste tipuri sunt indicate printr-un <tag> HTML
+- Orice element care se deschide cu un <tag> trebuie sa se si inchida cu un alt </tag> curespunzator
+
+Cele mai intalnite tag-uri HTML sunt:
+
+<div> - division = marcheaza inceputul unei diviziuni
+<input> - input = o zona in care se poate introduce un text
+<textarea> - text area = asemanator cu inputul, dar mai mare ca dimensiune
+<label> - label = reprezinta o eticheta text care descrie un element sau un grup de elemente
+<button> - buton = buton HTML
+<td> - tabel = tabel HTML
+<th> - tabel head = cap de tabel tabel
+<tr> - tabel row = rand dintr-un tabel
+<td> - tabel data = o celula dintr-un tabel
+<select> - dropdown = lista din care se poate selecta un item dorit
+<form> - formular = un formular alcatuit din mai multe elemente
+
+DOM = Document Object Model - modelul de reprezentare a unei pagini web
+DOM-ul are structura unui tree (copac) si contine toate elementele care se afla intr-o pagina HTML.
+
+Fiecare element poate avea atribute (proprietati) precum id, class, name, etc.
+- id: de regula este unic pentru fiecare element
+- name: este de regula folosit pentru a identifica elementele mai usor in javascript
+- class: este folosita de fisierele css care ajuta la stilizarea elementelor
+
+Fisierele javascript sunt incluse de regula in <head> si definesc comportamentul elementelor dintr-o pagina
+Fisierele css sunt incluse si ele in <head> ajuta la stilizare
+
+Pentru a simula navigarea pe internet, avem nevoie si de un browser.
+"""
