@@ -3,12 +3,13 @@ import time
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 
-options = webdriver.ChromeOptions()
 
-# Cu aceasta optiune rulam testele in fundal fara interfata grafica
-# options.add_argument('--headless')
+# Cu aceasta metoda rulam testele in fundal fara interfata grafica:
+# driver_options = webdriver.ChromeOptions()
+# driver_options.add_argument('--headless')
+# driver = webdriver.Chrome(options=driver_options)
 
-driver = webdriver.Chrome(options=options)
+driver = webdriver.Chrome()
 
 # Test 1
 link = "https://www.elefant.ro/"
