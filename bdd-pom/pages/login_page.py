@@ -25,3 +25,6 @@ class LoginPage(BasePage):
 
     def is_main_error_message_displayed(self):
         return self.find(self.ERROR_MESSAGE).is_displayed()
+
+    def main_error_message_contains_text(self, text):
+        return text in self.get_text(self.ERROR_MESSAGE)

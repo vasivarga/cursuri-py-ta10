@@ -1,0 +1,38 @@
+"""
+1) Design Pattern
+_______________________________________________________________________________________________
+    Un design pattern reprezintă o soluție generală la o problemă de proiectare a software-ului.
+Este un concept foarte utilizat în programare și reprezintă o abordare practică pentru a simplifica si rezolva problemele
+comune apărute în timpul dezvoltării aplicațiilor.
+
+    Design pattern-urile oferă o soluție abstractă la o problemă specifică, care poate fi aplicată în diverse contexte
+și domenii. Acestea sunt adesea descrise ca o rețetă pentru rezolvarea problemei și sunt proiectate pentru a
+îmbunătăți modularitatea, flexibilitatea și reutilizarea codului in aplicație.
+
+    De obicei, un design pattern include o descriere a problemei, a soluției și a avantajelor și dezavantajelor acesteia.
+Acestea sunt prezentate într-un format standardizat, astfel încât să poată fi ușor înțelese și aplicate în dezvoltarea
+de software. Există multe tipuri diferite de design pattern-uri, cum ar fi creational patterns (modele de creare),
+structural patterns (modele structurale) și behavioral patterns (modele comportamentale), fiecare adresându-se unui tip
+diferit de problemă de proiectare.
+
+2) Page Object Model (POM)
+_______________________________________________________________________________________________
+    POM (Page Object Model) este un design pattern folosit în testarea automată a aplicațiilor web, care are ca scop
+separarea logicii de testare de cea a UI (interfeței de utilizator).
+Mai simplu spus, ce tine de UI, merge intr-un package/folder, ce tine de teste, merge in altul.
+
+    În cadrul POM, fiecare pagină web este reprezentată printr-o clasă separată, denumită Page Object.
+Această clasă conține toate elementele UI (interfața de utilizator) de pe pagina respectivă, împreună cu metodele
+necesare pentru a interacționa cu acestea.
+
+    De exemplu, dacă există o pagină de autentificare în aplicația web, clasa Page Object corespunzătoare ar putea
+conține elementele de interfață aferente câmpurilor de utilizator și parolă, butonul de autentificare, precum și
+metodele pentru a completa aceste câmpuri și a face clic pe butonul de autentificare.
+
+    Prin separarea elementelor UI și a metodelor asociate acestora în clase separate, codul de testare devine mai ușor
+de întreținut și de reutilizat. De asemenea, schimbările în interfața de utilizator nu necesită modificări la nivelul
+codului de testare, ci doar la nivelul claselor Page Object corespunzătoare.
+
+    POM este o abordare populară în testarea automată a aplicațiilor web, deoarece poate reduce timpul și efortul
+necesare pentru a scrie și a menține codul de testare.
+"""

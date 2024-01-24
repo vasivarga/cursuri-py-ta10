@@ -1,7 +1,7 @@
 from selenium import webdriver
 
 
-class Driver:
+class Browser:
 
     driver = webdriver.Chrome()
     driver.maximize_window()
