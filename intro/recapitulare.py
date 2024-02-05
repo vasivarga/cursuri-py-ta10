@@ -79,12 +79,13 @@ print(type(tuplu_1))
 print(tuplu_1)
 print("-------------------------------------")
 
-# Tuplu - NU permite valori duplicate (le va ignora)!
+# Set - NU permite valori duplicate (le va ignora)!
 set_1 = {1, 2, 3, 4, 5, 5, 6}
 print(type(set_1))
 print(set_1)
 print("-------------------------------------")
 
+# Dict - Permite valori duplicate, dar NU PERMITE chei duplicate!
 dict_1 = {
     "nume": "Andrei",
     "prenume": "Popescu"
